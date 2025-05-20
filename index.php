@@ -86,6 +86,61 @@
             </div>
         </div>
     </section>
+<!-- About Section -->
+    <section id="about" class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    About <span class="gradient-text">SafeRide</span>
+                </h2>
+                <div class="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+                <p class="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
+                    Our mission is to save lives by providing fast alerts in case of vehicle-related falls.
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <img src="./pics/header.png" alt="About Image" class="w-full max-w-md mx-auto floating">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h3 class="text-2xl font-bold mb-6">Protecting Riders Worldwide</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6">
+                        Whether you're riding a motorcycle or cycling in the mountains, our app detects accidents and makes sure help is on the way. We combine mobile sensors and real-time alerts to bring peace of mind to you and your loved ones.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 dark:bg-yellow-900 p-2 rounded-full mr-4">
+                                <i class="fas fa-heart text-yellow-500 dark:text-yellow-300"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Safety First</h4>
+                                <p class="text-gray-600 dark:text-gray-300">Your well-being is our top priority</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 dark:bg-yellow-900 p-2 rounded-full mr-4">
+                                <i class="fas fa-bolt text-yellow-500 dark:text-yellow-300"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Instant Alerts</h4>
+                                <p class="text-gray-600 dark:text-gray-300">Fast response when you need it most</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 dark:bg-yellow-900 p-2 rounded-full mr-4">
+                                <i class="fas fa-cogs text-yellow-500 dark:text-yellow-300"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Smart Technology</h4>
+                                <p class="text-gray-600 dark:text-gray-300">Advanced algorithms for accurate detection</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
