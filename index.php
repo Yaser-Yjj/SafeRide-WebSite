@@ -58,6 +58,37 @@
             </div>
         </div>
     </nav>
+<!-- Hero Section -->
+    <section id="home" class="py-20 bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 transition-colors duration-300">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 fade-in">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                    Stay Safe While <span class="gradient-text">You Ride</span>
+                </h1>
+                <p class="text-lg md:text-xl mb-8 text-gray-600 dark:text-gray-300">
+                    Our smart fall detection app monitors your rides and alerts emergency contacts if an accident occurs. Peace of mind for you and your loved ones.
+                </p>
+                <div class="flex space-x-4">
+                    <button class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105">
+                        Download Now
+                    </button>
+                    <button class="border-2 border-yellow-500 text-yellow-500 dark:text-yellow-400 hover:bg-yellow-500 hover:text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+                <div class="relative floating">
+                    <div class="w-64 h-64 md:w-80 md:h-80 bg-yellow-500 rounded-full opacity-20 absolute -left-10 -top-10"></div>
+                    <div class="w-64 h-64 md:w-80 md:h-80 bg-yellow-500 rounded-full opacity-20 absolute -right-10 -bottom-10"></div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/3273/3273617.png" alt="App Screenshot" class="relative w-64 h-64 md:w-80 md:h-80 object-contain">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
 
