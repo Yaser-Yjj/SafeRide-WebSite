@@ -540,7 +540,10 @@
             </div>
         </div>
     </footer>
-
+ <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-yellow-500 text-white rounded-full shadow-lg flex items-center justify-center transition-all opacity-0 invisible hover:bg-yellow-600">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
 
 

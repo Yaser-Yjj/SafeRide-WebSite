@@ -206,8 +206,14 @@
   }
 }
 @layer utilities {
+  .invisible {
+    visibility: hidden;
+  }
   .absolute {
     position: absolute;
+  }
+  .fixed {
+    position: fixed;
   }
   .relative {
     position: relative;
@@ -224,8 +230,14 @@
   .-right-10 {
     right: calc(var(--spacing) * -10);
   }
+  .right-8 {
+    right: calc(var(--spacing) * 8);
+  }
   .-bottom-10 {
     bottom: calc(var(--spacing) * -10);
+  }
+  .bottom-8 {
+    bottom: calc(var(--spacing) * 8);
   }
   .-left-10 {
     left: calc(var(--spacing) * -10);
@@ -672,6 +684,9 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .opacity-0 {
+    opacity: 0%;
   }
   .opacity-20 {
     opacity: 20%;
