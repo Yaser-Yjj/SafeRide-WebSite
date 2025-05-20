@@ -69,12 +69,12 @@
                     Our smart fall detection app monitors your rides and alerts emergency contacts if an accident occurs. Peace of mind for you and your loved ones.
                 </p>
                 <div class="flex space-x-4">
-                    <button class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105">
+                    <a href="#" class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105">
                         Download Now
-                    </button>
-                    <button class="border-2 border-yellow-500 text-yellow-500 dark:text-yellow-400 hover:bg-yellow-500 hover:text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105">
+                    </a>
+                    <a href="#" class="border-2 border-yellow-500 text-yellow-500 dark:text-yellow-400 hover:bg-yellow-500 hover:text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105">
                         Learn More
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
@@ -141,6 +141,66 @@
             </div>
         </div>
     </section>
+<!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    How It <span class="gradient-text">Works</span>
+                </h2>
+                <div class="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+                <p class="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
+                    Our app uses advanced technology to keep you safe during your rides.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg card-hover transition-all duration-300">
+                    <div class="w-16 h-16 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-3xl text-yellow-500 dark:text-yellow-300"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Smart Detection</h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Our app uses motion sensors to detect unusual falls from a bike, scooter, or motorbike with 95% accuracy.
+                    </p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg card-hover transition-all duration-300">
+                    <div class="w-16 h-16 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-bell text-3xl text-yellow-500 dark:text-yellow-300"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Instant Alert</h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Once a fall is detected, an alert is immediately sent to your phone and emergency contacts within seconds.
+                    </p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg card-hover transition-all duration-300">
+                    <div class="w-16 h-16 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-phone-alt text-3xl text-yellow-500 dark:text-yellow-300"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Emergency Call</h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        The app can automatically contact emergency services or your chosen contact in case of serious impact.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-16 bg-gradient-to-r from-yellow-500 to-rose-500 rounded-xl p-8 text-white">
+                <div class="max-w-3xl mx-auto text-center">
+                    <h3 class="text-2xl font-bold mb-4">Ready to Ride with Confidence?</h3>
+                    <p class="mb-6">Download SafeRide today and experience peace of mind on every journey.</p>
+                    <a href="#" class="bg-white text-yellow-500 hover:bg-gray-100 px-8 py-3 rounded-full font-bold transition-all transform hover:scale-105">
+                        Get the App Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
