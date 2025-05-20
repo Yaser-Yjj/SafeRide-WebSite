@@ -201,7 +201,100 @@
         </div>
     </section>
 
-
+ <!-- Use Cases Section -->
+    <section id="usecases" class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Who Can <span class="gradient-text">Benefit</span>
+                </h2>
+                <div class="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+                <p class="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
+                    SafeRide is designed for anyone who rides on two wheels or needs fall protection.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Use Case 1 -->
+                <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-motorcycle text-yellow-500 dark:text-yellow-300"></i>
+                        </div>
+                        <h3 class="text-lg font-bold">Motorcyclists</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Especially useful for riders on long journeys or in remote areas where help might not be immediately available.
+                    </p>
+                </div>
+                
+                <!-- Use Case 2 -->
+                <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-biking text-yellow-500 dark:text-yellow-300"></i>
+                        </div>
+                        <h3 class="text-lg font-bold">Cyclists</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Perfect for mountain bikers or urban cyclists who want an extra layer of protection during their rides.
+                    </p>
+                </div>
+                
+                <!-- Use Case 3 -->
+                <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-shipping-fast text-yellow-500 dark:text-yellow-300"></i>
+                        </div>
+                        <h3 class="text-lg font-bold">Delivery Drivers</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Essential for food delivery riders and couriers who spend long hours on the road in all conditions.
+                    </p>
+                </div>
+                
+                <!-- Use Case 4 -->
+                <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-hiking text-yellow-500 dark:text-yellow-300"></i>
+                        </div>
+                        <h3 class="text-lg font-bold">Adventure Seekers</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        For those who enjoy off-road biking or extreme sports where falls are more likely to occur.
+                    </p>
+                </div>
+                
+                <!-- Use Case 5 -->
+                <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-wheelchair text-yellow-500 dark:text-yellow-300"></i>
+                        </div>
+                        <h3 class="text-lg font-bold">Elderly Riders</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Provides security for older adults using mobility scooters or electric wheelchairs.
+                    </p>
+                </div>
+                
+                <!-- Use Case 6 -->
+                <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-yellow-500 dark:text-yellow-300"></i>
+                        </div>
+                        <h3 class="text-lg font-bold">Solo Travelers</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Crucial for individuals who ride alone and want assurance that help will come if needed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
