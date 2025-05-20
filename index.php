@@ -369,9 +369,177 @@
         </div>
     </section>
 
+<!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Get In <span class="gradient-text">Touch</span>
+                </h2>
+                <div class="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+                <p class="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
+                    Have questions or want to learn more? Reach out to our team.
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <div class="bg-gray-50 dark:bg-gray-700 p-8 rounded-xl h-600 ">
+                        <h3 class="text-3xl md:text-4xl font-bold mb-6 text-center   gradient-text">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-yellow-100 dark:bg-yellow-900 p-3 rounded-full mr-4">
+                                    <i class="fas fa-envelope text-yellow-500 dark:text-yellow-300"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Email</h4>
+                                    <p class="text-gray-600 dark:text-gray-300">contact@safemobileapp.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-yellow-100 dark:bg-yellow-900 p-3 rounded-full mr-4">
+                                    <i class="fab fa-instagram text-yellow-500 dark:text-yellow-300"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Instagram</h4>
+                                    <p class="text-gray-600 dark:text-gray-300">@SafeRideApp</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-yellow-100 dark:bg-yellow-900 p-3 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt text-yellow-500 dark:text-yellow-300"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Location</h4>
+                                    <p class="text-gray-600 dark:text-gray-300">Rabat-Salé-Kénitra, Morocco</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-10">
+                            <h4 class="font-bold mb-4">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="w-10 h-10 bg-gray-200 dark:bg-gray-600 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-white transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-gray-200 dark:bg-gray-600 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-white transition">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-gray-200 dark:bg-gray-600 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-white transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-gray-200 dark:bg-gray-600 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-white transition">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 md:pl-12">
+                    <form class="bg-gray-50 dark:bg-gray-700 p-8 rounded-xl">
+                        <div class="mb-6">
+                            <label for="name" class="block font-medium mb-2">Full Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="email" class="block font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="subject" class="block font-medium mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block font-medium mb-2">Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg font-bold transition-all transform hover:scale-105">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
+  <!-- Footer -->
+    <footer class="bg-gray-800 dark:bg-gray-900 text-gray-300 py-12 transition-colors duration-300">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <div class="w-10 h-10 rounded-full bg-yellow-500 flex items-center justify-center">
+                            <i class="fas fa-shield-alt text-white"></i>
+                        </div>
+                        <span class="text-xl font-bold gradient-text">SafeRide</span>
+                    </div>
+                    <p class="max-w-xs">
+                        Your safety is our priority. Advanced fall detection technology for riders everywhere.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#home" class="hover:text-yellow-400 transition">Home</a></li>
+                            <li><a href="#about" class="hover:text-yellow-400 transition">About</a></li>
+                            <li><a href="#features" class="hover:text-yellow-400 transition">Features</a></li>
+                            <li><a href="#usecases" class="hover:text-yellow-400 transition">Use Cases</a></li>
+                            <li><a href="#contact" class="hover:text-yellow-400 transition">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Legal</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-yellow-400 transition">Privacy Policy</a></li>
+                            <li><a href="#" class="hover:text-yellow-400 transition">Terms of Service</a></li>
+                            <li><a href="#" class="hover:text-yellow-400 transition">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Download</h3>
+                        <div class="space-y-4">
+                            <button class="flex items-center bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg w-full transition">
+                                <i class="fab fa-apple text-2xl mr-3"></i>
+                                <div class="text-left">
+                                    <div class="text-xs">Download on the</div>
+                                    <div class="font-bold">App Store</div>
+                                </div>
+                            </button>
+                            <button class="flex items-center bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg w-full transition">
+                                <i class="fab fa-google-play text-2xl mr-3"></i>
+                                <div class="text-left">
+                                    <div class="text-xs">Get it on</div>
+                                    <div class="font-bold">Google Play</div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p>© 2025 SafeRide. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-yellow-400 transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-yellow-400 transition"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-yellow-400 transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-yellow-400 transition"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
