@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en" class="dark">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SafeRide - Fall Detection App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeRide - Fall Detection App</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="./src/style.css" rel="stylesheet">
+    <link href="./src/style.css" rel="stylesheet">
 </head>
+
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300">
- 
-<!-- Navigation -->
+
+    <!-- Navigation -->
     <nav class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-50 transition-colors duration-300">
         <div class="container mx-auto px-6 py-3">
             <div class="flex justify-between items-center">
@@ -20,24 +22,24 @@
                     </div>
                     <span class="text-xl font-bold gradient-text">Safe Ride App</span>
                 </div>
-                
+
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#home" class="hover:text-yellow-500 transition">Home</a>
                     <a href="#about" class="hover:text-yellow-500 transition">About</a>
                     <a href="#features" class="hover:text-yellow-500 transition">Features</a>
                     <a href="#usecases" class="hover:text-yellow-500 transition">Use Cases</a>
                     <a href="#contact" class="hover:text-yellow-500 transition">Contact</a>
-                    
-                   
+
+
                 </div>
-                
+
                 <div class="md:hidden flex items-center">
                     <button id="menu-btn" class="text-gray-500 dark:text-gray-300 focus:outline-none">
                         <i class="fas fa-bars text-2xl"></i>
                     </button>
                 </div>
             </div>
-            
+
             <!-- Mobile menu -->
             <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
                 <div class="flex flex-col space-y-3">
@@ -46,11 +48,11 @@
                     <a href="#features" class="hover:text-pink-500 transition">Features</a>
                     <a href="#usecases" class="hover:text-pink-500 transition">Use Cases</a>
                     <a href="#contact" class="hover:text-pink-500 transition">Contact</a>
-                    
+
                     <div class="flex items-center justify-between pt-2">
                         <span>Dark Mode</span>
                         <div class="relative inline-block w-10 align-middle select-none">
-                            <input type="checkbox" id="toggle-mobile" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
+                            <input type="checkbox" id="toggle-mobile" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer" />
                             <label for="toggle-mobile" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
                         </div>
                     </div>
@@ -58,7 +60,7 @@
             </div>
         </div>
     </nav>
-<!-- Hero Section -->
+    <!-- Hero Section -->
     <section id="home" class="py-20 bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 transition-colors duration-300">
         <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
             <div class="md:w-1/2 fade-in">
@@ -86,7 +88,7 @@
             </div>
         </div>
     </section>
-<!-- About Section -->
+    <!-- About Section -->
     <section id="about" class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
@@ -98,7 +100,7 @@
                     Our mission is to save lives by providing fast alerts in case of vehicle-related falls.
                 </p>
             </div>
-            
+
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-10 md:mb-0">
                     <img src="./pics/header.png" alt="About Image" class="w-full max-w-md mx-auto floating">
@@ -141,7 +143,7 @@
             </div>
         </div>
     </section>
-<!-- Features Section -->
+    <!-- Features Section -->
     <section id="features" class="py-20 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
@@ -153,7 +155,7 @@
                     Our app uses advanced technology to keep you safe during your rides.
                 </p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Feature 1 -->
                 <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg card-hover transition-all duration-300">
@@ -165,7 +167,7 @@
                         Our app uses motion sensors to detect unusual falls from a bike, scooter, or motorbike with 95% accuracy.
                     </p>
                 </div>
-                
+
                 <!-- Feature 2 -->
                 <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg card-hover transition-all duration-300">
                     <div class="w-16 h-16 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mb-6">
@@ -176,7 +178,7 @@
                         Once a fall is detected, an alert is immediately sent to your phone and emergency contacts within seconds.
                     </p>
                 </div>
-                
+
                 <!-- Feature 3 -->
                 <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg card-hover transition-all duration-300">
                     <div class="w-16 h-16 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mb-6">
@@ -188,7 +190,7 @@
                     </p>
                 </div>
             </div>
-            
+
             <div class="mt-16 bg-gradient-to-r from-yellow-500 to-rose-500 rounded-xl p-8 text-white">
                 <div class="max-w-3xl mx-auto text-center">
                     <h3 class="text-2xl font-bold mb-4">Ready to Ride with Confidence?</h3>
@@ -201,7 +203,7 @@
         </div>
     </section>
 
- <!-- Use Cases Section -->
+    <!-- Use Cases Section -->
     <section id="usecases" class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
@@ -213,7 +215,7 @@
                     SafeRide is designed for anyone who rides on two wheels or needs fall protection.
                 </p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Use Case 1 -->
                 <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
@@ -227,7 +229,7 @@
                         Especially useful for riders on long journeys or in remote areas where help might not be immediately available.
                     </p>
                 </div>
-                
+
                 <!-- Use Case 2 -->
                 <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
                     <div class="flex items-center mb-4">
@@ -240,7 +242,7 @@
                         Perfect for mountain bikers or urban cyclists who want an extra layer of protection during their rides.
                     </p>
                 </div>
-                
+
                 <!-- Use Case 3 -->
                 <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
                     <div class="flex items-center mb-4">
@@ -253,7 +255,7 @@
                         Essential for food delivery riders and couriers who spend long hours on the road in all conditions.
                     </p>
                 </div>
-                
+
                 <!-- Use Case 4 -->
                 <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
                     <div class="flex items-center mb-4">
@@ -266,7 +268,7 @@
                         For those who enjoy off-road biking or extreme sports where falls are more likely to occur.
                     </p>
                 </div>
-                
+
                 <!-- Use Case 5 -->
                 <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
                     <div class="flex items-center mb-4">
@@ -279,7 +281,7 @@
                         Provides security for older adults using mobility scooters or electric wheelchairs.
                     </p>
                 </div>
-                
+
                 <!-- Use Case 6 -->
                 <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg hover:shadow-lg transition-all duration-300">
                     <div class="flex items-center mb-4">
@@ -295,6 +297,77 @@
             </div>
         </div>
     </section>
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Frequently Asked <span class="gradient-text">Questions</span>
+                </h2>
+                <div class="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+                <p class="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
+                    Find answers to common questions about SafeRide.
+                </p>
+            </div>
+
+            <div class="max-w-3xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-4 border-b border-gray-200 dark:border-gray-700 pb-4">
+                    <button class="faq-btn flex justify-between items-center w-full text-left focus:outline-none">
+                        <h3 class="font-bold text-lg">How does the app detect falls?</h3>
+                        <i class="fas fa-chevron-down text-yellow-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-2 text-gray-600 dark:text-gray-300 hidden">
+                        <p>SafeRide uses your smartphone's built-in accelerometer and gyroscope to detect sudden changes in motion that indicate a fall. Our advanced algorithms distinguish between normal riding movements and actual falls to minimize false alarms.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="mb-4 border-b border-gray-200 dark:border-gray-700 pb-4">
+                    <button class="faq-btn flex justify-between items-center w-full text-left focus:outline-none">
+                        <h3 class="font-bold text-lg">Does the app work without internet?</h3>
+                        <i class="fas fa-chevron-down text-yellow-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-2 text-gray-600 dark:text-gray-300 hidden">
+                        <p>The fall detection works offline, but sending alerts requires an internet connection. If no connection is available when a fall is detected, the app will send the alert as soon as a connection is restored.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="mb-4 border-b border-gray-200 dark:border-gray-700 pb-4">
+                    <button class="faq-btn flex justify-between items-center w-full text-left focus:outline-none">
+                        <h3 class="font-bold text-lg">How quickly are alerts sent?</h3>
+                        <i class="fas fa-chevron-down text-yellow-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-2 text-gray-600 dark:text-gray-300 hidden">
+                        <p>Alerts are typically sent within 10-15 seconds of a detected fall. The app includes a countdown timer that gives you time to cancel the alert if it was triggered accidentally.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="mb-4 border-b border-gray-200 dark:border-gray-700 pb-4">
+                    <button class="faq-btn flex justify-between items-center w-full text-left focus:outline-none">
+                        <h3 class="font-bold text-lg">Can I customize emergency contacts?</h3>
+                        <i class="fas fa-chevron-down text-yellow-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-2 text-gray-600 dark:text-gray-300 hidden">
+                        <p>Yes, you can add multiple emergency contacts and specify who should be notified in different situations. You can also set up different alert levels based on the severity of detected falls.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="mb-4 border-b border-gray-200 dark:border-gray-700 pb-4">
+                    <button class="faq-btn flex justify-between items-center w-full text-left focus:outline-none">
+                        <h3 class="font-bold text-lg">Is my data private and secure?</h3>
+                        <i class="fas fa-chevron-down text-yellow-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-2 text-gray-600 dark:text-gray-300 hidden">
+                        <p>Absolutely. We take privacy seriously. Your location data is only accessed when a fall is detected, and we never sell or share your personal information with third parties.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -316,6 +389,7 @@
 
 
 
-  <script src="./page.js"></script>
+    <script src="./page.js"></script>
 </body>
+
 </html>
