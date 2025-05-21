@@ -1,39 +1,22 @@
 # 🚨 XALT - Votre Allié de Sécurité Intelligent
 
-Bienvenue dans le projet **XALT**, un dispositif de sécurité innovant conçu pour protéger les usagers de deux-roues *(motos, vélos, trottinettes)* dans toutes les situations.
+**XALT** est un dispositif de sécurité intelligent conçu pour protéger les conducteurs de motos, vélos et trottinettes.
 
 
 
-## 🔍 À propos
+## ⚙️ Fonctionnalités
 
-**XALT** est un système **compact**, **robuste** et **facile à installer**. Il intègre plusieurs fonctionnalités essentielles pour :
-
-- 🛡️ la **sécurité personnelle**
-- ⚠️ la **détection d'accidents**
-- 🔒 la **prévention du vol**
-
-✨ Pensé pour les conducteurs modernes, **XALT** allie **technologie** et **simplicité** pour vous accompagner au quotidien.
+- Détection automatique des accidents
+- Alerte sonore en cas d’inconscience 
+- Système antivol intelligent
 
 
 
-## 🧠 Fonctionnalités principales
+## 🌐 Techno utilisées
 
-- 🛑 **Détection automatique d’accident**  
-  → En cas de choc ou de chute, XALT envoie une **alerte immédiate** aux contacts d’urgence avec la **position GPS exacte**.
-
-- 📢 **Alerte sonore en cas d'inconscience**  
-  → Une alarme puissante se déclenche automatiquement pour **attirer l'attention** et **prévenir les secours**.
-
-- 🛡️ **Protection antivol intelligente**  
-  → Détection de mouvements suspects avec **déclenchement d’alarme** et **notification instantanée**.
-
-
-## 🌐 Technologies utilisées
-
-- 🔹 **HTML5 / CSS3 / Tailwind CSS**
-- 🔸 **JavaScript**
-- 🔹 **Font Awesome** *(icônes dynamiques)*
-- 📱 **Design responsive** adapté à tous les écrans
+- HTML / CSS / Tailwind
+- JavaScript
+- Font Awesome
 
 
 
