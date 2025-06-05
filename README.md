@@ -1,37 +1,53 @@
-# 🚨 XALT - Votre Allié de Sécurité Intelligent
+# 🚨 XALT – Your Smart Safety Companion
 
-**XALT** est un dispositif de sécurité intelligent conçu pour protéger les conducteurs de motos, vélos et trottinettes.
+**XALT** is an intelligent safety device designed to protect riders of motorcycles, bicycles, and scooters.
 
-
-
-## ⚙️ Fonctionnalités
-
-- Détection automatique des accidents
-- Alerte sonore en cas d’inconscience 
-- Système antivol intelligent
+<img src="https://github.com/user-attachments/assets/e1237941-9bc9-47a3-993d-e9e78d9e0942" alt="home page" />
 
 
+## 🏠 Home Page
 
-## 🌐 Techno utilisées
+Visit the homepage to explore the key features and purpose of the XALT system.
 
-- HTML / CSS / Tailwind
-- JavaScript
-- Font Awesome
+---
 
+## ⚙️ Features
 
+- ✅ Automatic accident detection  
+- 🔊 Sound alert in case of unconsciousness  
+- 🔒 Intelligent anti-theft system  
 
-## 👩‍💻 Développé avec amour par
+---
 
-Aarika Wiam
-_Étudiante passionnée de développement web et de technologies utiles à la vie._
+## 🌐 Technologies Used
 
+- HTML  
+- Tailwind CSS  
+- JavaScript  
+- Font Awesome  
 
+---
+
+## 👩‍💻 Developed with Love by
+
+**AARIKA Wiam**  
+A passionate student of web development and useful everyday technologies.
+
+---
 
 ## 📬 Contact
 
-💌 Pour toute question ou suggestion :  
-🔗 [LinkedIn de Wiam Aarika](https://www.linkedin.com/in/wiam-aarika-a2977432b/)
+💌 For any questions or suggestions:
+
+🔗 [LinkedIn – Wiam Aarika](https://www.linkedin.com/in/wiam-aarika-a2977432b/)
+
+
+## 🛵 Safety First
+
+> XALT watches over you, wherever you go.
 
 
 
-> 🛵 _La sécurité avant tout. XALT veille sur vous, où que vous alliez._
+
+
+
